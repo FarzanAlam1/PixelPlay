@@ -38,6 +38,28 @@ const DEFAULT_OPTIONS = [
   },
 
   {
+    name: 'Grayscale',
+    property: 'grayscale',
+    value: 0,
+    range: {
+      min: 0,
+      max: 100
+    },
+    unit: '%' 
+  },
+
+  {
+    name: 'Sepia',
+    property: 'sepia',
+    value: 0,
+    range: {
+      min: 0,
+      max: 100
+    },
+    unit: '%' 
+  },
+  
+  {
     name: 'Blur',
     property: 'blur',
     value: 0,
